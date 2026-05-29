@@ -1,0 +1,22 @@
+# ─────────────────────────────────────────────────────────────
+#  .gitignore — Flappy Bird (C++ / SDL2 / Native Windows)
+# ─────────────────────────────────────────────────────────────
+
+# ── Visual Studio Build Debris & Cache ────────────────────────
+.vs/
+x64/
+Debug/
+Release/
+*.Flappy B.*
+Flappy B.*/
+
+# ── User Environment Overrides ────────────────────────────────
+*.vcxproj.user
+
+# ── Local Dependencies ────────────────────────────────────────
+# Keeps huge binary dynamic-link libraries off GitHub
+*.dll
+
+# ── Runtime Game Logs & Save State Data ───────────────────────
+Scores.txt
+Highscore.txt
